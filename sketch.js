@@ -13,9 +13,9 @@ function setup() {
 }
 
 function draw() {
-  background("blue");  
+  background(255,255,255);  
 
-  car.velocityX=speed;
+  car.velocityX=speed.velocityX;
  
   if (car.x-wall.x<car.width/2+wall.width/2){
    car.velocityX=0;
